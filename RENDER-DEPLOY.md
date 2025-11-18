@@ -49,9 +49,9 @@ Agrega estas variables (muy importante):
 ```
 SPRING_DATASOURCE_URL=jdbc:mysql://bjslygwl8laqgij48zvg-mysql.services.clever-cloud.com:3306/bjslygwl8laqgij48zvg?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
 
-SPRING_DATASOURCE_USERNAME=uvqwczuafttgdnca
+SPRING_DATASOURCE_USERNAME=uxvsyuzrmqnvjrf6
 
-SPRING_DATASOURCE_PASSWORD=VqyeDRcuFdJPmAMQy2n4
+SPRING_DATASOURCE_PASSWORD=g61fjaZb7ziLs8QXdb4s
 
 SERVER_PORT=8096
 ```
