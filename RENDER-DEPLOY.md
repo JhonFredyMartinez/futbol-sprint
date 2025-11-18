@@ -56,11 +56,11 @@ SPRING_DATASOURCE_PASSWORD=g61fjaZb7ziLs8QXdb4s
 SERVER_PORT=8096
 ```
 
-### 4. Configuración Avanzada (Opcional)
+### 4. Configuración Avanzada (IMPORTANTE)
 
 En **Advanced Settings**:
 
-- **Health Check Path:** `/`
+- **Health Check Path:** `/actuator/health`
 - **Auto-Deploy:** `Yes` (despliega automáticamente con cada push a GitHub)
 
 ### 5. Desplegar
