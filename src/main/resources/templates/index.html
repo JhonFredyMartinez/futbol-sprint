@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestion de Futbol</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 900px;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .menu-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .menu-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+        }
+        .menu-item h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .menu-item p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Gestion de Futbol</h1>
+        <p style="text-align: center; color: #666; margin-bottom: 20px;">Bienvenido al sistema de administracion deportiva</p>
+
+        <div class="menu-grid">
+            <a href="/asociaciones" class="menu-item">
+                <h3>Asociaciones</h3>
+                <p>Gestionar asociaciones deportivas</p>
+            </a>
+
+            <a href="/clubes" class="menu-item">
+                <h3>Clubes</h3>
+                <p>Administrar clubes de futbol</p>
+            </a>
+
+            <a href="/competiciones" class="menu-item">
+                <h3>Competiciones</h3>
+                <p>Gestionar torneos y ligas</p>
+            </a>
+
+            <a href="/entrenadores" class="menu-item">
+                <h3>Entrenadores</h3>
+                <p>Administrar cuerpo tecnico</p>
+            </a>
+
+            <a href="/jugadores" class="menu-item">
+                <h3>Jugadores</h3>
+                <p>Gestionar plantilla de jugadores</p>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>Sistema de Gestion de Futbol v1.0</p>
+            <p>Puerto: 8096</p>
+        </div>
+    </div>
+</body>
+</html>

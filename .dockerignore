@@ -1,0 +1,17 @@
+# Ignorar archivos innecesarios para el build de Docker
+.git
+.gitignore
+README.md
+*.md
+*.bat
+.settings
+.classpath
+.project
+.factorypath
+.idea
+*.iml
+.vscode/
+target/
+hi.txt
+compilacion*.log
+inicio-app.log

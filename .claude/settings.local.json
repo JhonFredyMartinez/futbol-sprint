@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn clean compile:*)",
+      "Bash(dir:*)",
+      "Bash(mvnw.cmd clean compile:*)",
+      "Bash(./mvnw.cmd clean compile:*)",
+      "Bash(./mvnw.cmd clean package:*)",
+      "Bash(.mvnw.cmd clean compile:*)",
+      "Bash(javac:*)",
+      "Bash(mvn:*)",
+      "Bash(ARREGLAR-LOMBOK.bat)",
+      "Bash(cmd /c \"cd /d \"\"C:\\trabajos spring framework\\futbol\"\" && ARREGLAR-LOMBOK.bat\")",
+      "Bash(mvnw.cmd clean:*)",
+      "Bash(cmd.exe /c \"mvnw.cmd clean\")",
+      "Bash(cmd.exe /c \"mvnw.cmd clean compile -DskipTests\")",
+      "Bash(cmd.exe:*)",
+      "Bash(powershell.exe -Command \"& .\\mvnw.cmd clean compile -DskipTests\")",
+      "Bash(compilacion.log)",
+      "Bash(cat:*)",
+      "Bash(powershell.exe -Command \"& .\\mvnw.cmd clean compile -DskipTests -e\")",
+      "Bash(compilacion-debug.log)",
+      "Bash(compilacion-lombok-1.18.34.log)",
+      "Bash(java:*)",
+      "Bash(where:*)",
+      "Bash(powershell.exe -Command \"& .\\mvnw.cmd clean compile\")",
+      "Bash(timeout 15 powershell.exe:*)",
+      "Bash(powershell.exe -Command \"& .\\mvnw.cmd clean package -DskipTests\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
